@@ -39,6 +39,8 @@ set(MV_INSTALL_DIR "${CMAKE_CURRENT_LIST_DIR}/install" CACHE PATH "Path where th
 set(MV_UNITY_BUILD ON CACHE BOOL "")
 set(MV_USE_AVX ON CACHE BOOL "")
 
+set(MV_SNE_USE_ARTIFACTORY_LIBS OFF)
+
 #                        #
 # ManiaVault and Plugins #
 #                        #
@@ -47,9 +49,9 @@ set(MV_USE_AVX ON CACHE BOOL "")
 add_subdirectory(core)
 
 # own (project) plugins
-add_subdirectory(SpatialHierarchyPlugin)
-add_subdirectory(ImageEmbeddingCoupling)
-#add_subdirectory(SpidrPlugin)   # TODO: update to use vcpkg for dependencies and interplay with above projects
+add_subdirectory(SpatialHierarchyPlugin)    # brings in HDILib
+add_subdirectory(ImageEmbeddingCoupling)    # brings in HDILibSlim
+#add_subdirectory(SpidrPlugin)              # TODO: update to use vcpkg for dependencies and interplay with above projects
 
 # other plugins
 add_subdirectory(ImageLoaderPlugin)
