@@ -1,0 +1,27 @@
+[submodule "core"]
+	path = core
+	url = git@github.com:ManiVaultStudio/core.git
+[submodule "SpatialHierarchyPlugin"]
+	path = SpatialHierarchyPlugin
+	url = git@github.com:alxvth/SpatialHierarchyPlugin.git
+[submodule "Scatterplot"]
+	path = Scatterplot
+	url = git@github.com:ManiVaultStudio/Scatterplot.git
+[submodule "SpidrPlugin"]
+	path = SpidrPlugin
+	url = git@github.com:ManiVaultStudio/SpidrPlugin.git
+[submodule "ImageEmbeddingCoupling"]
+	path = ImageEmbeddingCoupling
+	url = git@github.com:ManiVaultStudio/ImageEmbeddingCoupling.git
+[submodule "ImageViewerPlugin"]
+	path = ImageViewerPlugin
+	url = git@github.com:ManiVaultStudio/ImageViewerPlugin.git
+[submodule "SpectralViewPlugin"]
+	path = SpectralViewPlugin
+	url = git@github.com:ManiVaultStudio/SpectralViewPlugin.git
+[submodule "ImageLoaderPlugin"]
+	path = ImageLoaderPlugin
+	url = git@github.com:ManiVaultStudio/ImageLoaderPlugin.git
+[submodule "t-SNE-Analysis"]
+	path = t-SNE-Analysis
+	url = git@github.com:ManiVaultStudio/t-SNE-Analysis.git
