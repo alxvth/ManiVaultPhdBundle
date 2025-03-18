@@ -12,7 +12,7 @@ Plugins developed during PhD projects:
 - Spatial Hierarchy
 
 Other plugins:
+- Image Viewer (modified branch, sub-project of Image Embedding Coupling)
 - Image Loader
-- Image Viewer
 - t-SNE
 - Spectral Viewer
