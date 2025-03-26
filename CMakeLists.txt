@@ -40,6 +40,10 @@ set(MV_UNITY_BUILD ON CACHE BOOL "")
 set(MV_USE_AVX ON CACHE BOOL "")
 
 set(MV_SNE_USE_ARTIFACTORY_LIBS OFF)
+set(MV_SNE_USE_AVX ON)
+
+set(MV_PCA_AVX ON CACHE BOOL "")
+set(MV_UMAP_AVX ON CACHE BOOL "")
 
 #                        #
 # ManiaVault and Plugins #
@@ -58,6 +62,8 @@ add_subdirectory(ImageLoaderPlugin)
 add_subdirectory(t-SNE-Analysis)
 add_subdirectory(Scatterplot)
 add_subdirectory(SpectralViewPlugin)
+add_subdirectory(UMAP-Plugin)
+add_subdirectory(PcaPlugin)
 
 #                 #
 # Dev environment #

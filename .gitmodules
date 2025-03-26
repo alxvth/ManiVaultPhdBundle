@@ -22,3 +22,9 @@
 [submodule "t-SNE-Analysis"]
 	path = t-SNE-Analysis
 	url = git@github.com:ManiVaultStudio/t-SNE-Analysis.git
+[submodule "PcaPlugin"]
+	path = PcaPlugin
+	url = git@github.com:ManiVaultStudio/PcaPlugin.git
+[submodule "UMAP-Plugin"]
+	path = UMAP-Plugin
+	url = git@github.com:ManiVaultStudio/UMAP-Plugin.git
