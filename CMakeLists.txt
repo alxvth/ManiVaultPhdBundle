@@ -55,11 +55,11 @@ add_subdirectory(core)
 # own (project) plugins
 add_subdirectory(SpatialHierarchyPlugin)    # brings in HDILib
 add_subdirectory(ImageEmbeddingCoupling)    # brings in HDILibSlim, also build modified ImageViewerPlugin
-#add_subdirectory(SpidrPlugin)              # TODO: update to use vcpkg for dependencies and interplay with above projects
+add_subdirectory(SpidrPlugin)               # uses HDILibSlim
 
 # other plugins
 add_subdirectory(ImageLoaderPlugin)
-add_subdirectory(t-SNE-Analysis)
+add_subdirectory(t-SNE-Analysis)            # uses HDILib
 add_subdirectory(Scatterplot)
 add_subdirectory(SpectralViewPlugin)
 add_subdirectory(UMAP-Plugin)
