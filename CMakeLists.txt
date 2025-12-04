@@ -20,8 +20,8 @@ endif()
 list(APPEND VCPKG_MANIFEST_FEATURES "runtimegpu")
 message(STATUS "vcpkg: Adding to config: runtimegpu")
 
-set(VCPKG_OVERLAY_PORTS "${CMAKE_CURRENT_LIST_DIR}/SpatialHierarchyPlugin/third_party/SpatialHierarchyLibrary/vcpkg-overlays/faiss")
-message(STATUS "vcpkg: Using custom port: faiss")
+set(VCPKG_OVERLAY_PORTS "${CMAKE_CURRENT_LIST_DIR}/SpatialHierarchyPlugin/third_party/SpatialHierarchyLibrary/vcpkg-overlays")
+message(STATUS "vcpkg: Using custom ports at ${VCPKG_OVERLAY_PORTS}")
 
 project(ManiVaultPhdBundle
         VERSION 1.0.0
@@ -44,6 +44,8 @@ set(MV_SNE_USE_AVX ON)
 
 set(MV_PCA_AVX ON CACHE BOOL "")
 set(MV_UMAP_AVX ON CACHE BOOL "")
+
+set(IHP_BUILD_TESTS OFF)
 
 #                        #
 # ManiaVault and Plugins #
