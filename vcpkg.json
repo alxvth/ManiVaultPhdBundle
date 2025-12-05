@@ -67,9 +67,10 @@
       ]
     }
   },
-  "builtin-baseline":"b27f6bfad367d64f8f0f3296351c5d246e182bb4",
+  "builtin-baseline":"656be05781442d5c4cb14978f6c7bf47b6e12b32",
   "overrides": [
     { "name": "annoy", "version": "1.17.3#0" },
+    { "name": "blas", "version": "2023-04-14#5" },
     { "name": "boost", "version": "1.89.0#0" },
     { "name": "catch2", "version": "3.11.0#0" },
     { "name": "clapack", "version": "3.2.1#24" },
