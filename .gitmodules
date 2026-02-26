@@ -13,9 +13,6 @@
 [submodule "ImageEmbeddingCoupling"]
 	path = ImageEmbeddingCoupling
 	url = git@github.com:ManiVaultStudio/ImageEmbeddingCoupling.git
-[submodule "SpectralViewPlugin"]
-	path = SpectralViewPlugin
-	url = git@github.com:ManiVaultStudio/SpectralViewPlugin.git
 [submodule "ImageLoaderPlugin"]
 	path = ImageLoaderPlugin
 	url = git@github.com:ManiVaultStudio/ImageLoaderPlugin.git

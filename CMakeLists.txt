@@ -63,7 +63,6 @@ add_subdirectory(SpidrPlugin)               # uses HDILibSlim
 add_subdirectory(ImageLoaderPlugin)
 add_subdirectory(t-SNE-Analysis)            # uses HDILib
 add_subdirectory(Scatterplot)
-add_subdirectory(SpectralViewPlugin)
 add_subdirectory(UMAP-Plugin)
 add_subdirectory(PcaPlugin)
 
