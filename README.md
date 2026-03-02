@@ -8,5 +8,5 @@ git clone --recurse-submodule https://github.com/alxvth/PhdManiVaultBundle.git
 
 Plugins developed during PhD projects:
 - [Spidr](github.com/ManiVaultStudio/SpidrPlugin) as part of [Incorporating Texture Information into Dimensionality Reduction for High-Dimensional Images](https://doi.org/10.1109/PacificVis53943.2022.00010) (2022)
-- [Image & Embedding Coupling](https://github.com/ManiVaultStudio/ImageEmbeddingCoupling) as part of [Interactions for Seamlessly Coupled Exploration of High-Dimensional Images and Hierarchical Embeddings](https://doi.org/10.2312/vmv.20231227)
-- [Superpixel Hierarchies and Embeddings](https://github.com/alxvth/SpatialHierarchyPlugin) as part of [Manifold-Preserving Superpixel Hierarchies and Embeddings for the Exploration of High-Dimensional Images](https://doi.org/10.48550/arXiv.2602.24160)
+- [Image & Embedding Coupling](https://github.com/ManiVaultStudio/ImageEmbeddingCoupling) as part of [Interactions for Seamlessly Coupled Exploration of High-Dimensional Images and Hierarchical Embeddings](https://doi.org/10.2312/vmv.20231227) (2023)
+- [Superpixel Hierarchies and Embeddings](https://github.com/alxvth/SpatialHierarchyPlugin) as part of [Manifold-Preserving Superpixel Hierarchies and Embeddings for the Exploration of High-Dimensional Images](https://doi.org/10.48550/arXiv.2602.24160) (2026)
