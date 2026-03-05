@@ -16,6 +16,9 @@
 [submodule "ImageLoaderPlugin"]
 	path = ImageLoaderPlugin
 	url = git@github.com:ManiVaultStudio/ImageLoaderPlugin.git
+[submodule "ImageViewerPlugin"]
+	path = ImageViewerPlugin
+	url = git@github.com:ManiVaultStudio/ImageViewerPlugin.git
 [submodule "t-SNE-Analysis"]
 	path = t-SNE-Analysis
 	url = git@github.com:ManiVaultStudio/t-SNE-Analysis.git
