@@ -25,3 +25,6 @@
 [submodule "UMAP-Plugin"]
 	path = UMAP-Plugin
 	url = git@github.com:ManiVaultStudio/UMAP-Plugin.git
+[submodule "SpatialHierarchyPlugin"]
+	path = SpatialHierarchyPlugin
+	url = git@github.com:alxvth/SPH_plugin.git
