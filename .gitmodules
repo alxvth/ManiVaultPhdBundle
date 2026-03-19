@@ -1,9 +1,6 @@
 [submodule "core"]
 	path = core
 	url = git@github.com:ManiVaultStudio/core.git
-[submodule "SpatialHierarchyPlugin"]
-	path = SpatialHierarchyPlugin
-	url = git@github.com:alxvth/SpatialHierarchyPlugin.git
 [submodule "Scatterplot"]
 	path = Scatterplot
 	url = git@github.com:ManiVaultStudio/Scatterplot.git
