@@ -1,30 +1,30 @@
 [submodule "core"]
 	path = core
-	url = git@github.com:ManiVaultStudio/core.git
+	url = ../../ManiVaultStudio/core.git
 [submodule "Scatterplot"]
 	path = Scatterplot
-	url = git@github.com:ManiVaultStudio/Scatterplot.git
+	url = ../../ManiVaultStudio/Scatterplot.git
 [submodule "SpidrPlugin"]
 	path = SpidrPlugin
-	url = git@github.com:ManiVaultStudio/SpidrPlugin.git
+	url = ../../ManiVaultStudio/SpidrPlugin.git
 [submodule "ImageEmbeddingCoupling"]
 	path = ImageEmbeddingCoupling
-	url = git@github.com:ManiVaultStudio/ImageEmbeddingCoupling.git
+	url = ../../ManiVaultStudio/ImageEmbeddingCoupling.git
 [submodule "ImageLoaderPlugin"]
 	path = ImageLoaderPlugin
-	url = git@github.com:ManiVaultStudio/ImageLoaderPlugin.git
+	url = ../../ManiVaultStudio/ImageLoaderPlugin.git
 [submodule "ImageViewerPlugin"]
 	path = ImageViewerPlugin
-	url = git@github.com:ManiVaultStudio/ImageViewerPlugin.git
+	url = ../../ManiVaultStudio/ImageViewerPlugin.git
 [submodule "t-SNE-Analysis"]
 	path = t-SNE-Analysis
-	url = git@github.com:ManiVaultStudio/t-SNE-Analysis.git
+	url = ../../ManiVaultStudio/t-SNE-Analysis.git
 [submodule "PcaPlugin"]
 	path = PcaPlugin
-	url = git@github.com:ManiVaultStudio/PcaPlugin.git
+	url = ../../ManiVaultStudio/PcaPlugin.git
 [submodule "UMAP-Plugin"]
 	path = UMAP-Plugin
-	url = git@github.com:ManiVaultStudio/UMAP-Plugin.git
+	url = ../../ManiVaultStudio/UMAP-Plugin.git
 [submodule "SpatialHierarchyPlugin"]
 	path = SpatialHierarchyPlugin
-	url = git@github.com:alxvth/SPH_plugin.git
+	url = ../../alxvth/SPH_plugin.git
