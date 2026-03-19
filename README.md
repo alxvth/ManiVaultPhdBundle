@@ -3,7 +3,7 @@
 This repository contains the [ManiVault](https://github.com/ManiVaultStudio/core) core application and several plugins develop as part of or used during project of the dissertation [Visual Analytics for High-Dimensional Images via Dimensionality Reduction](https://doi.org/10.4233/uuid:0fdde46e-23cc-4984-b03b-7710a03e2b46) (2026) by Alexander Vieth.
 
 ```
-git clone --recurse-submodule https://github.com/alxvth/PhdManiVaultBundle.git
+git clone --recurse-submodule https://github.com/alxvth/ManiVaultPhdBundle.git
 ```
 
 Plugins developed during PhD projects:
