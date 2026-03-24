@@ -8,13 +8,12 @@ if(DEFINED ENV{VCPKG_ROOT} AND NOT CMAKE_TOOLCHAIN_FILE)
     file(TO_CMAKE_PATH "$ENV{VCPKG_ROOT}" VCPKG_ROOT)
     message(STATUS "VCPKG_ROOT: ${VCPKG_ROOT}")
     set(CMAKE_TOOLCHAIN_FILE "${VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake")
+endif()
 
-    if(WIN32)
-        set(VCPKG_HOST_TRIPLET "x64-windows-static-md")
-        set(VCPKG_TARGET_TRIPLET "x64-windows-static-md")
-        set(VCPKG_LIBRARY_LINKAGE "static")
-    endif()
-
+if(WIN32)
+    set(VCPKG_HOST_TRIPLET "x64-windows-static-md")
+    set(VCPKG_TARGET_TRIPLET "x64-windows-static-md")
+    set(VCPKG_LIBRARY_LINKAGE "static")
 endif()
 
 list(APPEND VCPKG_MANIFEST_FEATURES "runtimegpu")
